@@ -1,9 +1,10 @@
 language: node_js
 node_js:
-  - 18
+  - "18"
 cache:
   directories:
     - node_modules
 script:
+  - echo "*************Build Starts***************"
   - npm install
   - npm test
